@@ -1,0 +1,42 @@
+Python 2.7.10 (default, Oct 14 2015, 16:09:02) 
+[GCC 5.2.1 20151010] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> a = 42
+>>> b = 'abacate'
+>>> id(a)
+25265544
+>>> id(42)
+25265544
+>>> id('abacate')
+140583042126880
+>>> id(b)
+140583042126880
+>>> 2 * a
+84
+>>> c = a + 3
+>>> c
+45
+>>> ================================ RESTART ================================
+>>> 
+5
+>>> ================================ RESTART ================================
+>>> 
+5
+45
+>>> ================================ RESTART ================================
+>>> 
+5
+abacate e banana
+>>> dir ('abacate')
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', '_formatter_parser', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index', 'isalnum', 'isalpha', 'isdigit', 'islower', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+>>> help('abacate'.upper)
+Help on built-in function upper:
+
+upper(...)
+    S.upper() -> string
+    
+    Return a copy of the string S converted to uppercase.
+
+>>> help(print)
+SyntaxError: invalid syntax
+>>> 

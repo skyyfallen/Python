@@ -1,0 +1,12 @@
+Python 2.7.10 (default, Oct 14 2015, 16:09:02) 
+[GCC 5.2.1 20151010] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Digite o primeiro número: 2
+Digite o segundo número: 4
+6
+Digite o terceiroo número: 5
+Digite o quarto número: 8
+13.0
+>>> 

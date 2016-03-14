@@ -1,0 +1,49 @@
+Python 2.7.10 (default, Oct 14 2015, 16:09:02) 
+[GCC 5.2.1 20151010] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> a = 3.1415
+>>> a
+3.1415
+>>> a = 'abacate'
+>>> a
+'abacate'
+>>> a = 42
+>>> a
+42
+>>> a + 'mamão'
+
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    a + 'mamão'
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> str(42) + 'mamao'
+'42mamao'
+>>> str(a) + 'mamao'
+'42mamao'
+>>> a
+42
+>>> b = 13
+>>> a
+42
+>>> b
+13
+>>> a, b = b, a
+>>> a
+13
+>>> b
+42
+>>> a, b, c = 1, 2, 3
+>>> a
+1
+>>> b
+2
+>>> c
+3
+>>> a, b, c = 'OBA'
+>>> a
+'O'
+>>> b
+'B'
+>>> c
+'A'
+>>> 

@@ -1,0 +1,39 @@
+Python 2.7.10 (default, Oct 14 2015, 16:09:02) 
+[GCC 5.2.1 20151010] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> a = 42
+>>> b = 13
+>>> a > b
+True
+>>> type(True)
+<type 'bool'>
+>>> 
+type (False)
+<type 'bool'>
+>>> a < b
+False
+>>> a == 42
+True
+>>> b == 42
+False
+>>> a != 13
+True
+>>> a
+42
+>>> nota = 7
+>>> faltas = 30
+>>> nota >= 6 and faltas <= 20
+False
+>>> a
+42
+>>> b
+13
+>>> a == 42 or b == 42
+True
+>>> a = 13
+>>> a == 42 or b == 42
+False
+>>> b = 13
+>>> a == 42 or b == 42
+False
+>>> 

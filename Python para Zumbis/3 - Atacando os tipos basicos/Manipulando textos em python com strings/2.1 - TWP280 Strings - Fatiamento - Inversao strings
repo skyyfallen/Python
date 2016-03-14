@@ -1,0 +1,30 @@
+Python 2.7.10 (default, Oct 14 2015, 16:09:02) 
+[GCC 5.2.1 20151010] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> x = '0123456789'
+>>> print (x[0:2])
+01
+>>> print (x[1:2])
+1
+>>> print (x[2:4])
+23
+>>> print (x[0:5])
+01234
+>>> print (x[1:8])
+1234567
+>>> print (x[:2])
+01
+>>> print (x[4:])
+456789
+>>> print (x[4:-1])
+45678
+>>> print (x[-4:-1])
+678
+>>> print (x[:])
+0123456789
+>>> texto = 'batatinha quando nasce'
+>>> texto[::2]
+'bttnaqad ac'
+>>> texto[::-1]           #inversão da string
+'ecsan odnauq ahnitatab'
+>>> 
