@@ -4,7 +4,7 @@ Entre 200 e 400 minutos, o preço é de R$0,18. Acima de 400 minutos o preço po
 Calcule sua conta de telefone.
 '''
 
-minutos = float(input('Quantidade de minutos: '))
+minutos = int(input('Quantidade de minutos: '))
 if minutos < 200:
     preco = 0.20
 elif minutos <= 400:
